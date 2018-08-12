@@ -9,19 +9,22 @@ def deal_card
 end
 
 def display_card_total(cardtotal)
-  cardtotal
+ "Your cards add up to #{cardtotal}"
   # code #display_card_total here
 end
 
 def prompt_user
+   puts "Type 'h' to hit or 's' to stay"
   # code #prompt_user here
 end
 
 def get_user_input
+   gets.chomp
   # code #get_user_input here
 end
 
-def end_game
+def end_game(cards)
+  
   # code #end_game here
 end
 
