@@ -42,7 +42,7 @@ def hit?(cardtotal)
   user_input = get_user_input
   if get_user_input = 'h'
     cardtotal += deal_card
-    
+  else
  display_card_total
 
   # code hit? here
