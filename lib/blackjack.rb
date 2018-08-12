@@ -1,10 +1,10 @@
 def welcome
-  puts "Welcome to the Black jack Table"
+ "Welcome to the Black jack Table"
   # code #welcome here
 end
 
 def deal_card
-  rand(11)
+  puts rand(11)
   # code #deal_card here
 end
 
