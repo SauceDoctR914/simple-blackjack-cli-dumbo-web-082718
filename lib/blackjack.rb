@@ -63,7 +63,8 @@ def runner
   welcome
   thetotal = initial_round
   until thetotal > 21
-  hit?
+  thetotal = hit?(thetotal)
+  end
   end_game
 end
   # code runner here
