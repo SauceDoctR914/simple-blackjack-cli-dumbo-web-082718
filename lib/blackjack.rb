@@ -1,10 +1,10 @@
 def welcome
- "Welcome to the Blackjack Table"
+  puts "Welcome to the Blackjack Table"
   # code #welcome here
 end
 
 def deal_card
-  puts rand(1..11)
+  rand(1..11)
   # code #deal_card here
 end
 
