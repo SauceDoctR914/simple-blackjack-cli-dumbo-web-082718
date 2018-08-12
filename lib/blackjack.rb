@@ -1,9 +1,10 @@
 def welcome
-  puts "Welcome to the black"
+  puts "Welcome to the Black jack Table"
   # code #welcome here
 end
 
 def deal_card
+  
   # code #deal_card here
 end
 
