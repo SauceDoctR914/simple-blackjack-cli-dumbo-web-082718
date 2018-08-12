@@ -29,7 +29,7 @@ def end_game(cards)
   # code #end_game here
 end
 
-def initial_round
+def initial_round(card)
   2.times do deal_card
 end
   display_card_total
