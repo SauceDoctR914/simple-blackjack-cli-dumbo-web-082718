@@ -1,4 +1,5 @@
 def welcome
+  puts "Welcome to the black"
   # code #welcome here
 end
 
