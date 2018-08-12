@@ -30,8 +30,7 @@ def end_game(cards)
 end
 
 def initial_round(card)
-  deal_card
-  deal_card
+  deal_card + deal_card
   display_card_total
 end
 
