@@ -30,10 +30,6 @@ def end_game(cards)
 end
 
 def initial_round(card)
-  card1 = deal_card(card)
-   card2 = deal_card(card)
-  card1 + card2
-  # code #initial_round here
 end
 
 def hit?
