@@ -40,7 +40,8 @@ end
 def hit?
   prompt_user
   get_user_input
-  cardtotal
+ display_card_total
+
   # code hit? here
 end
 
