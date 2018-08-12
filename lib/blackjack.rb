@@ -50,7 +50,8 @@ def hit?(cardtotal)
 end
 
 def invalid_command
- if get_user_input != 's' || get_user_input != 'h' # code invalid_command here
+ if get_user_input != 's' && get_user_input != 'h' 
+   puts "Please enter valid entry" # code invalid_command here
 end
 
 #####################################################
