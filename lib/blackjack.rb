@@ -41,7 +41,7 @@ def hit?
   prompt_user 
   user_input = get_user_input
   if get_user_input = 'h'
-    puts
+    cardtotal+=
  display_card_total
 
   # code hit? here
