@@ -47,8 +47,7 @@ def hit?(cardtotal)
   else
     invalid_command
   end
- display_card_total
-
+end
   # code hit? here
 end
 
